@@ -1,7 +1,9 @@
-public class TaskID {
+package TicketEscalation;
+
+public class TicketID {
     private int id;
 
-    public TaskID(int id) {
+    public TicketID(int id){
         this.id = id;
     }
 
