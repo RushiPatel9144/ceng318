@@ -14,7 +14,7 @@ public class InventoryManager {
     //Updating the product
     public void updateProduct(int productId, double price, int quantity) {
         Product product = hashMap.get(productId);
-        //if
+
         product.setPrice(price);
         product.setQuantity(quantity);
 
@@ -27,9 +27,12 @@ public class InventoryManager {
     }
 
     //Searching Product
-    public void searchProduct(String name){
-        hashMap.containsValue(name);
+    public Product searchProductByName(String name) {
+        for (Product product : hashMap.values()) {
+            if (product.getName().equalsIgnoreCase(name)) {
+                return product;
+            }
+        }
+        return null;
     }
-
-
 }
