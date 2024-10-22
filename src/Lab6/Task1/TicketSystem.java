@@ -26,9 +26,9 @@ public class TicketSystem {
         return queue.peek();
     }
 
-    public Ticket searchTicket(String ticketID, String customerName) {
+    public Ticket searchTicket(int ticketID, String customerName) {
         for (Ticket t : queue) {
-            if (t.ticketID.equals(ticketID) || t.customerName.equals(customerName)) {
+            if (t.ticketID == ticketID || t.customerName.equals(customerName)) {
                 return t;
             }
         }

@@ -1,12 +1,12 @@
 package Lab6.Task1;
 
 public class Ticket {
-    String ticketID;
+    int ticketID;
     String customerName;
     String issueDescription;
     String priority;
 
-    public Ticket(String ticketID, String customerName, String issueDescription, String priority) {
+    public Ticket(int ticketID, String customerName, String issueDescription, String priority) {
         this.ticketID = ticketID;
         this.customerName = customerName;
         this.issueDescription = issueDescription;
