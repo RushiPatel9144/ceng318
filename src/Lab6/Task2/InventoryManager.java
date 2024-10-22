@@ -9,7 +9,7 @@ public class InventoryManager {
     public void addProduct(Product product) {
         hashMap.put(product.getProductId(), product);
     }
-
+    
 
     //Updating the product
     public void updateProduct(int productId, double price, int quantity) {
