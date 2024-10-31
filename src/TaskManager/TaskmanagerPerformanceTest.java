@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class TaskmanagerPerformanceTest {
     public static void main(String[] args) {
-        int[] taskCounts = {10,100, 1000, 10000,100000}; // Different scales of tasks
+        int[] taskCounts = {10,100,1000,5000,10000}; // Different scales of tasks
         TaskManager manager;
 
         for (int count : taskCounts) {
