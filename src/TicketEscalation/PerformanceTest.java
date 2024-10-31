@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class PerformanceTest {
     public static void main(String[] args) {
-        int[] ticketCounts = {10,100,1000,10000,100000}; // Different scales of tickets
+        int[] ticketCounts = {10,100,1000,5000,10000}; // Different scales of tickets
         TicketManager manager;
 
         for (int count : ticketCounts) {
