@@ -50,3 +50,19 @@ public class Main {
         return new Transaction(transactionID, customerID, date, amount);
     }
 }
+
+//Task 2
+//        Insertion Time for 100 Transactions: 18.4718 ms
+//        Traversal Time for Viewing All Transactions: 17.8838 ms
+//        Search Time for Transaction ID 50: 0.0378 ms
+//        Deletion Time for Transaction ID 25: 0.0435 ms
+//
+//        Insertion Time for 500 Transactions: 23.4543 ms
+//        Search Time for Transaction ID 250: 0.0627 ms
+//        Deletion Time for Transaction ID 125: 0.0456 ms
+//        Traversal Time for Viewing All Transactions: 36.8782 ms
+//
+//        Insertion Time for 1,000 Transactions: 29.9018 ms
+//        Traversal Time for Viewing All Transactions: 50.5199 ms
+//        Search Time for Transaction ID 500: 0.1657 ms
+//        Deletion Time for Transaction ID 250: 0.112 ms
